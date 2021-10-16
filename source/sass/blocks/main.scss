@@ -1,0 +1,18 @@
+.main {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.main__photo {
+  @media (max-width: 500px) {
+    border-radius: 0;
+  }
+  border-radius: 50%;
+}
+
+.main__title {
+  font-family: 'Roboto-Thin';
+  font-size: 70px;
+  line-height: 170%;
+  margin: 0;
+}
