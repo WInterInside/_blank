@@ -6,6 +6,7 @@
 .main__photo {
   @media (max-width: 500px) {
     border-radius: 0;
+    width: 500px;
   }
   border-radius: 50%;
 }
