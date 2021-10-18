@@ -24,11 +24,11 @@
               <li class="navigation__item">
                 <a href="#info" class="navigation__link navigation__link--current">Информация</a>
               </li>
+              <li class="navigation__item  navigation__item--ed">
+                <a href="#ed" class="navigation__link">Образование</a>
+              </li>
               <li class="navigation__item">
                 <a href="#exp" class="navigation__link">Навыки</a>
-              </li>
-              <li class="navigation__item  navigation__item--js">
-                <a href="#js" class="navigation__link">JavaScript</a>
               </li>
               <li class="navigation__item">
                 <a href="#about" class="navigation__link">О себе</a>
@@ -46,14 +46,48 @@
       </picture>
       <div class="container">
         <h1 class="main__title">Анкета</h1>
-        <div class="data">
+        <section class="data">
           <div class="data__wrapper data__wrapper--info">
             <a name="info" class="main__link"></a>
             <h2 class="data__caption">Личная информация</h2>
             <ul class="data__list data__list--info">
-              <li class="data__item"></li>
+              <li class="data__item data__item--info">Циркулев Максим Михайлович</li>
+              <li class="data__item data__item--info">03 / 06 / 1989 г.</li>
+              <li class="data__item data__item--info">Крым / Алушта</li>
+              <li class="data__item data__item--info">
+                <a class="data__link" href="https://telegram.im/@WinterInside" target="_blank">Tm: @WinterInside</a>
+              </li>
+              <li class="data__item data__item--info">
+                <a class="data__link" href="skype:deAn1mator">Skype: deAn1mator</a>
+              </li>
+              <li class="data__item data__item--info">
+                <a class="data__link" href="tel:+7 (978) 746 90 90">Тел.: +7 (978) 746-90-80</a>
+              </li>
             </ul>
           </div>
+
+          <div class="data__education">
+            <a name="ed" class="main__link"></a>
+            <h2 class="data__caption">Образование</h2>
+            <ul class="data__list data__list--ed">
+              <li class="data__item data__item--ed">
+                <span class="data__year">2012</span>
+                <p class="data__institution">Таврический национальный университет им. В.И. Вернадского, Симферополь</p>
+                <p class="data__speciality">Компьютерные системы и сети</p>
+              </li>
+              <li class="data__item data__item--ed">
+                <span class="data__year">2019</span>
+                <p class="data__institution">HTMLacademy</p>
+                <p class="data__speciality">Профессиональный HTML и CSS, уровень 1</p>
+              </li>
+              <li class="data__item data__item--ed">
+                <span class="data__year">2020</span>
+                <p class="data__institution">HTMLacademy</p>
+                <p class="data__speciality">Профессиональный HTML и CSS, уровень 2</p>
+              </li>
+            </ul>
+          </div>
+
           <div class="data__wrapper data__wrapper--skill">
             <a name="exp" class="main__link"></a>
             <h2 class="data__caption">Навыки</h2>
@@ -101,7 +135,7 @@
             <h2 class="data__caption">О себе</h2>
             <textarea class="data__textarea" name="about" cols="30" rows="10" disabled> Фрилансер. Ищу интересные full-time проекты. Мотивирован. Учусь быстро, а могу еще быстрее. Не боюсь трудностей и стрессовых ситуаций. Готов к стажировке, удаленной работе (в большей степени) или переезду (в меньшей).</textarea>
           </div>
-        </div>
+        </section>
       </div>
     </main>
 

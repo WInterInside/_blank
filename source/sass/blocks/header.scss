@@ -1,8 +1,8 @@
 .header {
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 65px;
   border-bottom: 1px solid #dbe4f5;
-  background-color: rgb(219, 228, 245);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(219, 228, 245, 1) 100%, rgba(219, 228, 245, 1) 100%);
 
   @media (max-width: 500px) {
     min-height: 64px;

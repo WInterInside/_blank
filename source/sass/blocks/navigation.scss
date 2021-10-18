@@ -41,12 +41,6 @@
   }
 }
 
-.navigation__item--js {
-  display: inline-block;
-  @media (max-width: 500px) {
-    display: none;
-  }
-}
 
 .navigation__item:not(:last-child) {
   margin-right: 10px;
