@@ -7,10 +7,13 @@
   color: #435993;
   font-size: 14px;
   line-height: 170%;
+  border-bottom: 1px solid transparent;
+  transition: 0.5s;
 
   &--current {
     color: #1c1c1c;
     border-bottom: 1px solid #1c1c1c;
+    transition: 0.5s;
   }
 
   @media (max-width: 500px) {

@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV from</title>
+  <title>Winter Inside</title>
   <link rel="stylesheet" href="css/style.min.css">
   <script>
     // Picture element HTML5 shiv
@@ -31,6 +31,9 @@
                 <a href="#exp" class="navigation__link">Навыки</a>
               </li>
               <li class="navigation__item">
+                <a href="#portfolio" class="navigation__link">Примеры работ</a>
+              </li>
+              <li class="navigation__item">
                 <a href="#about" class="navigation__link">О себе</a>
               </li>
             </ul>
@@ -42,11 +45,15 @@
 
     <main class="main">
       <picture>
-        <img class="main__photo img-bg" src="../img/main_ph.webp" alt="photo" width="320" height="320">
+        <source type="image/webp" srcset="img/main_ph.webp">
+
+        <img class="main__photo img-bg" src="img/main_ph.jpg" alt="photo" width="320" height="320">
       </picture>
+
       <div class="container">
         <h1 class="main__title">Анкета</h1>
         <section class="data">
+
           <div class="data__wrapper data__wrapper--info">
             <a name="info" class="main__link"></a>
             <h2 class="data__caption">Личная информация</h2>
@@ -62,6 +69,9 @@
               </li>
               <li class="data__item data__item--info">
                 <a class="data__link" href="tel:+7 (978) 746 90 90">Тел.: +7 (978) 746-90-80</a>
+              </li>
+              <li class="data__item data__item--info">
+                <a class="data__link" href="mailto:tsirkulev.maksim@mail.ru" rel="nofollow">tsirkulev.maksim@mail.ru</a>
               </li>
             </ul>
           </div>
@@ -93,16 +103,22 @@
             <h2 class="data__caption">Навыки</h2>
             <ul class="data__list data__list--skill">
               <li class="data__item data__item--skill">
+                <span class="data__skillname">HTML</span>
+              </li>
+              <li class="data__item data__item--skill">
+                <span class="data__skillname">CSS</span>
+              </li>
+              <li class="data__item data__item--skill">
                 <span class="data__skillname">БЭМ</span>
               </li>
               <li class="data__item data__item--skill">
-                <span class="data__skillname">LESS / SASS</span>
+                <span class="data__skillname">LESS</span>
+              </li>
+              <li class="data__item data__item--skill">
+                <span class="data__skillname">SASS</span>
               </li>
               <li class="data__item data__item--skill">
                 <span class="data__skillname">SVG</span>
-              </li>
-              <li class="data__item data__item--skill">
-                <span class="data__skillname">Семантичная верстка</span>
               </li>
               <li class="data__item data__item--skill">
                 <span class="data__skillname">JavaScript</span>
@@ -120,21 +136,84 @@
                 <span class="data__skillname">React JS</span>
               </li>
               <li class="data__item data__item--skill">
-                <span class="data__skillname">emmet / pug</span>
+                <span class="data__skillname">jade / pug</span>
               </li>
               <li class="data__item data__item--skill">
-                <span class="data__skillname">Adobe PS / Zepplin / Figma</span>
+                <span class="data__skillname">emmet</span>
               </li>
               <li class="data__item data__item--skill">
-                <span class="data__skillname">npm / yarn</span>
+                <span class="data__skillname">Adobe PS</span>
+              </li>
+              <li class="data__item data__item--skill">
+                <span class="data__skillname">Zepplin</span>
+              </li>
+              <li class="data__item data__item--skill">
+                <span class="data__skillname">Figma</span>
+              </li>
+              <li class="data__item data__item--skill">
+                <span class="data__skillname">yarn / npm</span>
               </li>
             </ul>
           </div>
+
+          <div class="data__wrapper data__wrapper--portfolio">
+            <a name="portfolio" class="main__link"></a>
+            <h2 class="data__caption">Примеры работ</h2>
+            <ul class="data__list data__list--portfolio">
+              <li class="data__item data__item--portfolio">
+                <a href="http://tet.sheer82.ru" class="data__link" target="_blank" rel="nofollow">
+                  <picture>
+                    <source type="image/webp" srcset="img/prev/tet.webp">
+
+                    <img class="data__item-prev img-bg" src="img/prev/tet.jpg" alt="site preview">
+                  </picture>
+                </a>
+              </li>
+              <li class="data__item data__item--portfolio">
+                <a href="http://vo-lt.ru" class="data__link" target="_blank" rel="nofollow">
+                  <picture>
+                    <source type="image/webp" srcset="img/prev/volt.webp">
+
+                    <img class="data__item-prev img-bg" src="img/prev/volt.jpg" alt="site preview">
+                  </picture>
+                </a>
+              </li>
+              <li class="data__item data__item--portfolio">
+                <a href="https://winterinside.github.io/ALCOMARKET" class="data__link" target="_blank" rel="nofollow">
+                  <picture>
+                    <source type="image/webp" srcset="img/prev/alco.webp">
+
+                    <img class="data__item-prev img-bg" src="img/prev/alco.jpg" alt="site preview">
+                  </picture>
+                </a>
+              </li>
+              <li class="data__item data__item--portfolio">
+                <a href="https://winterinside.github.io/LEDMEDIA" class="data__link" target="_blank" rel="nofollow">
+                  <picture>
+                    <source type="image/webp" srcset="img/prev/led.webp">
+
+                    <img class="data__item-prev img-bg" src="img/prev/led.jpg" alt="site preview">
+                  </picture>
+                </a>
+              </li>
+              <li class="data__item data__item--portfolio">
+                <a href="https://winterinside.github.io/NOFT-page" class="data__link" target="_blank" rel="nofollow">
+                  <picture>
+                    <source type="image/webp" srcset="img/prev/noft.webp">
+
+                    <img class="data__item-prev img-bg" src="img/prev/noft.jpg" alt="site preview">
+                  </picture>
+                </a>
+              </li>
+            </ul>
+          </div>
+
           <div class="data__wrapper data__wrapper--about">
             <a name="about" class="main__link"></a>
             <h2 class="data__caption">О себе</h2>
             <textarea class="data__textarea" name="about" cols="30" rows="10" disabled> Фрилансер. Ищу интересные full-time проекты. Мотивирован. Учусь быстро, а могу еще быстрее. Не боюсь трудностей и стрессовых ситуаций. Готов к стажировке, удаленной работе (в большей степени) или переезду (в меньшей).</textarea>
           </div>
+
         </section>
       </div>
     </main>

@@ -1,6 +1,11 @@
 .main {
   flex: 1 1 auto;
   text-align: center;
+  padding-top: 100px;
+
+  @media (max-width: 500px) {
+    padding-top: 60px;
+  }
 }
 
 .main__photo {
